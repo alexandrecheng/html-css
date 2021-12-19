@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgreen;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border: 5px solid yellow;
+        }
+        
+        nav{
+            background-color: lightgreen;
+            padding: 3px;
+            box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.418);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+            padding: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.384);
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(128, 114, 114);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsa vel earum quisquam deleniti repellendus provident, ad possimus enim recusandae aperiam excepturi, voluptas voluptate reprehenderit beatae explicabo? Quibusdam, animi natus?</p>
+            </article>
+            <article id="assuntos">
+                <h2>Notícias do mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque dolores facilis esse maxime cupiditate, a fuga similique eum dolorem voluptas ex hic molestiae animi architecto repudiandae, optio laborum magnam aut!
+                 </p>
+                <aside>
+                    <p>Artigo escrito por josé da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
