@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar site e agora vou gerenciar meu repositório!
 
-a<href="https://https://alexandrecheng.github.io/html-css/Exercicios/ex001/index">Executar o Exercício 001
+<a href="https://https://alexandrecheng.github.io/html-css/Exercicios/ex001/index">Executar o Exercício 001
